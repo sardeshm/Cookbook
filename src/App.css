@@ -1,0 +1,96 @@
+.App {
+  min-height:100vh;
+  text-align: center;
+  background-color: #E4E4E1;
+  background-image: linear-gradient(to right, #c1c161 0%, #c1c161 0%, #d4d4b1 100%);
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+
+}
+h1 {
+  color:rgb(0, 5, 1);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+}
+nav{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background-color:rgb(100, 150,150);
+  color:rgb(223, 217, 222);
+}
+.nav-links {
+  width:40%;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+
+}
+h2{
+  color:#f0f019;
+  display: inline-block;
+width: 200px;
+text-align: center;
+box-shadow: 0px 5px 30px rgb(155, 152, 152);
+}
+h4{
+  color:rgb(0, 5, 1);
+  font-size: 20px;
+}
+.search{
+  min-height: 10vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-bar{
+width: 20%;
+border: none;
+padding: 10px;
+}
+.btn{
+  background:darkkhaki;
+  border:none;
+  padding: 10px;
+  color:rgb(14, 15, 12);
+}
+.calories{
+  border: solid, black, 1px;
+  list-style: none;
+  display:flex;
+  justify-content: space-around;
+
+}
+.ingredient{
+  list-style: none;
+  line-height: 1.5;
+}
+.img{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 250px;
+  object-fit: cover;
+}
+
+
+.cookbook{
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgb(155, 152, 152);
+  margin: 20px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+ background-image: linear-gradient(to right, #a8caba 0%, #5d4157 100%);;
+align-items: center;
+min-width: 30%;
+color:white;
+
+
+}
+
+
+
+
+
